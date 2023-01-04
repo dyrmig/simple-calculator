@@ -17,7 +17,6 @@ buttons.forEach(button => {
       }
       if(this.getAttribute('id')==='equals'){
         display.innerHTML = eval(display.innerHTML);
-        initialState = true;
       }
     });
   });
